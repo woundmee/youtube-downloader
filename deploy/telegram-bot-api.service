@@ -1,0 +1,30 @@
+[Unit]
+Description=Telegram Bot API server (local mode)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=telegram-bot-api
+Group=telegram-bot-api
+EnvironmentFile=/etc/telegram-bot-api.env
+StateDirectory=telegram-bot-api
+StateDirectoryMode=0750
+WorkingDirectory=/var/lib/telegram-bot-api
+ExecStart=/usr/local/bin/telegram-bot-api --local --http-ip-address=127.0.0.1 --http-port=8081 --dir=/var/lib/telegram-bot-api
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=60
+UMask=0077
+Nice=10
+CPUWeight=20
+IOWeight=20
+MemoryHigh=768M
+MemoryMax=1G
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

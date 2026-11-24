@@ -1,0 +1,25 @@
+# OS / IDE / Cache
+.idea/
+.vscode/
+.DS_Store
+.cache/
+.uv-cache/
+__pycache__/
+deploy/__pycache__
+venv/
+.venv/
+
+# Configs / Sercrets
+# data/cookie.txt
+config.py
+
+# Runtime data
+downloads/*
+!downloads/.gitkeep
+logs/*
+!logs/.gitkeep
+reports/
+!reports/.gitkeep
+tests/
+data/*
+!data/.gitkeep
