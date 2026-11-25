@@ -1,21 +1,24 @@
-<p align="center">
+<div align="center">
   <img src="docs/logo.png" width="176" alt="Логотип YouTube Downloader">
+
+
+# YouTube Downloader
+
+Telegram-бот для скачивания видео и аудио с YouTube.
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3.12%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12+" />
+  <img src="https://img.shields.io/badge/Telegram-Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot" />
+  <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
 </p>
 
-<h1 align="center">YouTube Downloader</h1>
+[Возможности](#features) •
+[Использование](#usage) •
+[Документация](#documentation) •
 
-<p align="center">
-  Telegram-бот для скачивания видео и аудио с YouTube.
-</p>
-
-<p align="center">
-  <a href="#features">Возможности</a> ·
-  <a href="#usage">Использование</a> ·
-  <a href="#documentation">Документация</a>
-</p>
-
-<p align="center">Отправь боту ссылку, выбери доступный формат и получи готовый файл прямо в Telegram.<br>
-Бот работает в личных сообщениях и доступен только пользователям из списка доступа.</p>
+Отправь боту ссылку, выбери доступный формат и получи готовый файл прямо в Telegram.<br>
+Бот работает в личных сообщениях и доступен только пользователям из списка доступа.
+</div>
 <br>
 
 <a id="features"></a>
